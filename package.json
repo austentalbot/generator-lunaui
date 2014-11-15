@@ -1,5 +1,5 @@
 {
-  "name": "generator-component",
+  "name": "generator-uicomponent",
   "version": "0.0.0",
   "description": "yeoman-generator",
   "main": "index.js",
@@ -8,18 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/austentalbot/generator-component.git"
+    "url": "https://github.com/austentalbot/generator-uicomponent.git"
   },
   "keywords": [
     "yeoman-generator"
   ],
-  "author": "Austen Talbot",
+  "author": "Austen Talbot <austentalbot@gmail.com> (http://austentalbot.com/)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/austentalbot/generator-component/issues"
+    "url": "https://github.com/austentalbot/generator-uicomponent/issues"
   },
-  "homepage": "https://github.com/austentalbot/generator-component",
-  "dependencies": {
-    "yeoman-generator": "^0.18.0"
-  }
+  "homepage": "https://github.com/austentalbot/generator-uicomponent"
 }
