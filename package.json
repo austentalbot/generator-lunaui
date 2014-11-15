@@ -1,6 +1,6 @@
 {
   "name": "generator-uicomponent",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "yeoman-generator",
   "main": "index.js",
   "scripts": {

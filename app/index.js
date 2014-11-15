@@ -1,6 +1,6 @@
 var yeoman = require('yeoman-generator');
 
-var ComponentGenerator = yeoman.generators.NamedBase.extend({
+var ComponentGenerator = yeoman.generators.Base.extend({
   promptUser: function() {
     var done = this.async();
     console.log(this.yeoman);
