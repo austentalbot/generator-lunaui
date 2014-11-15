@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/austentalbot/generator-uicomponent/issues"
   },
-  "homepage": "https://github.com/austentalbot/generator-uicomponent"
+  "homepage": "https://github.com/austentalbot/generator-uicomponent",
+  "dependencies": {
+    "yeoman-generator": "^0.18.0"
+  }
 }
