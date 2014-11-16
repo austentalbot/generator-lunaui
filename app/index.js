@@ -27,16 +27,18 @@ var ComponentGenerator = yeoman.generators.Base.extend({
     }.bind(this));
   },
   copyMainFiles: function() {
-    this.copy('_component.ts', this.component_name + '.ts');
- 
     var context = { 
       componentname: this.componentname,
       component_name: this.component_name,
       ComponentName: this.ComponentName,
       componentName: this.componentName
     };
+
+    this.copy('_component.ts', this.component_name + '.ts');
  
     this.template('_component_spec.ts', this.component_name + '_spec.ts', context);
+
+    this.template('__component.scss', '_' + this.component_name + '.scss', context);
   }
 
 });
