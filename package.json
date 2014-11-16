@@ -1,6 +1,6 @@
 {
   "name": "generator-lunaui",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "yeoman-generator",
   "main": "index.js",
   "scripts": {
