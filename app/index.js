@@ -1,10 +1,11 @@
 var yeoman = require('yeoman-generator');
+var yosay = require('yosay');
 
 var ComponentGenerator = yeoman.generators.Base.extend({
   prompting: {
     promptUser: function() {
       var done = this.async();
-      console.log(this.yeoman);
+      this.log(yosay('Welcome to LunaUi\'s Yeoman generator. Name your component, and I\'ll do the rest!'));
 
       var prompts = [{
         name: 'name',
@@ -18,7 +19,6 @@ var ComponentGenerator = yeoman.generators.Base.extend({
       }];
 
       this.prompt(prompts, function (props) {
-
         var truthy = {
           't': true,
           'T': true,
@@ -60,7 +60,7 @@ var ComponentGenerator = yeoman.generators.Base.extend({
       }
     },
     templates: function() {
-      var context = { 
+      var context = {
         componentname: this.componentname,
         component_name: this.component_name,
         ComponentName: this.ComponentName,
